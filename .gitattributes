@@ -1,0 +1,13 @@
+# Configuration for git attributes
+# Generated on 2026-11-05
+# See https://github.com/github/linguist
+*.htm linguist-vendored 
+
+go.sum linguist-generated 
+*.md linguist-documentation
+vendor/* linguist-vendored
+*.svg text
+yarn.lock linguist-generated   
+src/**/*.astro linguist-detectable
+*.jpeg binary
+*.sh text eol=lf
